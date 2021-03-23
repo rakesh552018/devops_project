@@ -1,0 +1,57 @@
+Maheshs-MacBook-Pro-2:msquare_javaproject_1 maheshchaganti$ git commit -m "readme commit"
+[master (root-commit) 9ff0783] readme commit
+ Committer: Mahesh Chaganti <maheshchaganti@Maheshs-MacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 15 insertions(+)
+ create mode 100644 msquare_javaproject_1/README.md
+
+
+
+
+Maheshs-MacBook-Pro-2:msquare_javaproject_1 maheshchaganti$ git status
+On branch mjp1_test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	errorlog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+# How to add repository to Github
+
+Maheshs-MacBook-Pro-2:msquare_javaproject_1 maheshchaganti$ git branch
+  delete_branch
+  master
+  mjp1_prod
+  mjp1_stage
+* mjp1_test
+Maheshs-MacBook-Pro-2:msquare_javaproject_1 maheshchaganti$ git add remote 
+fatal: pathspec 'remote' did not match any files
+Maheshs-MacBook-Pro-2:msquare_javaproject_1 maheshchaganti$ git remote add msquare_javaproject_1 git@github.com:rakesh552018/msquare_javaproject_1.git
+Maheshs-MacBook-Pro-2:msquare_javaproject_1 maheshchaganti$ git remote -v
+msquare_javaproject_1	git@github.com:rakesh552018/msquare_javaproject_1.git (fetch)
+msquare_javaproject_1	git@github.com:rakesh552018/msquare_javaproject_1.git (push)
+Maheshs-MacBook-Pro-2:msquare_javaproject_1 maheshchaganti$ git push msquare_javaproject_1
+fatal: The current branch mjp1_test has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream msquare_javaproject_1 mjp1_test
+
+
+
+
