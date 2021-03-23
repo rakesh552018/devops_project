@@ -50,7 +50,7 @@ https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-you
 4. # push your changes into your remote repo execute the git push <remote> <branch> command:
    git push <your_remote_name> <branch name>
 
-   test
+   
 
 
 
